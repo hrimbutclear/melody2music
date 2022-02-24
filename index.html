@@ -24,7 +24,7 @@
     <style>
         .vertical-center {
           margin: 0;
-          position: absolute;
+          position: relative;
           top: 50%;
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -33,9 +33,6 @@
 </head>
     
 <body>
-#audio {
-    align-self: center;
-  }
     <!-- Title -->
     <div class="container" style="max-width:1200px;">
         <div class='row mt-5 mb-3'>
@@ -112,10 +109,10 @@
             <div style='display: flex; align-content: center; '>
                 <div style='flex: 1;  '>
                     <div class='row' style='width: 600px; height:100px; ' id='solid'>
-                        <div class='vertical-center'>
+                        <div style='height: 60px;'>
                             <p style='width: 230px; text-align: center; font-size: 14px'>Input melody</p>
                         </div>
-                        <div class='vertical-center'>
+                        <div style='height: 60px;'>
                             <audio controls controlsList="nodownload"
                                 style='width: 270px; height: 60px;'>
                                 <source src="./assets/example_1/1_melody.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
@@ -133,7 +130,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
+                    <div class='row' style='width: 600px; height:100px; ' id='solid'>
                         <div style='height: 60px; vertical-align: middle'>
                             <p style='height: 60px; width: 230px; text-align: center; font-size: 14px'>Ground Truth<br>(only PIANO)</p>
                         </div>
