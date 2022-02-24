@@ -107,31 +107,33 @@
 
             <div style='display: flex; align-content: center; '>
                 <div style='flex: 1;  '>
-                    <div class='row' style='width: 600px; height:130px; '>
-                        <p style='height: 60px; width: 230px; padding: 35px 0; text-align: center; font-size: 14px'>Input melody</p>
+                    <div class='row' style='width: 600px; height:100px; '>
+                        <div style='height: 60px; vertical-align: middle'>
+                            <p style='height: 60px; width: 230px; text-align: center; font-size: 14px'>Input melody</p>
+                        </div>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
-                                style='display: inline-block; padding:35px; width: 270px; height: 95px; vertical-align: middle;'>
+                                style='display: inline-block; width: 270px; height: 40px; vertical-align: middle;'>
                                 <source src="./assets/example_1/1_melody.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 230px; padding: 35px 0; text-align: center; font-size: 14px'>Ground Truth<br>(melody + PIANO)</p>
+                    <div class='row' style='width: 600px; height:100px; '>
+                        <div style='height: 60px; vertical-align: middle'>
+                            <p style='height: 60px; width: 230px; padding: 20px 0; text-align: center; font-size: 14px'>Ground Truth<br>(melody + PIANO)</p>
                         </div>
-                        <div style='height: 60px; '>
+                        <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
-                                style='display: inline-block; padding:20px; width: 270px; height: 110px; vertical-align: middle; '>
+                                style='display: inline-block; width: 270px; height: 110px; vertical-align: middle; '>
                                 <source src="./assets/example_1/1_GT_total.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
                     <div class='row' style='width: 600px; height:130px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 230px; padding: 35px 0; text-align: center; font-size: 14px'>Ground Truth<br>(only PIANO)</p>
+                        <div style='height: 60px; vertical-align: middle'>
+                            <p style='height: 60px; width: 230px; text-align: center; font-size: 14px'>Ground Truth<br>(only PIANO)</p>
                         </div>
-                        <div style='height: 60px; '>
+                        <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload"
                                 style='display: inline-block; padding:20px; width: 270px; height: 110px; vertical-align: middle; '>
                                 <source src="./assets/example_1/1_GT_PIANO.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
