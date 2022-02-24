@@ -21,11 +21,6 @@
 
         gtag('config', 'UA-156162365-1');
     </script>
-<style>
-  #audio {
-    vertical-align: center;
-  }
-</style>
 </head>
     
 <body>
@@ -107,7 +102,7 @@
 
             <div style='display: flex; align-content: center; '>
                 <div style='flex: 1;  '>
-                    <div class='row' style='width: 600px; height:100px; '>
+                    <div class='row' style='width: 600px; height:100px; ' id='solid'>
                         <div style='height: 60px; vertical-align: middle'>
                             <p style='height: 60px; width: 230px; text-align: center; font-size: 14px'>Input melody</p>
                         </div>
@@ -118,7 +113,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:100px; '>
+                    <div class='row' style='width: 600px; height:100px; ' id='solid'>
                         <div style='height: 60px; vertical-align: middle'>
                             <p style='height: 60px; width: 230px; padding: 20px 0; text-align: center; font-size: 14px'>Ground Truth<br>(melody + PIANO)</p>
                         </div>
@@ -129,7 +124,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px; vertical-align: middle'>
                             <p style='height: 60px; width: 230px; text-align: center; font-size: 14px'>Ground Truth<br>(only PIANO)</p>
                         </div>
@@ -145,7 +140,7 @@
 
 
                 <div style='flex: 1;'>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'>Autoregressive, No masking<br>(melody + PIANO), 
                             </p>
@@ -157,7 +152,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'>Autoregressive, No masking<br>(only PIANO), 
                             </p>
@@ -169,7 +164,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'>Autoregressive, <b>Chord masking</b><br>(melody + PIANO)</p>
                         </div>
@@ -180,7 +175,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'>Autoregressive, <b>Chord masking</b><br>(only PIANO)</p>
                         </div>
@@ -191,7 +186,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'><b>Super-resolutional</b>, No masking<br>(melody + PIANO)</p>
                         </div>
@@ -202,7 +197,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'><b>Super-resolutional</b>, No masking<br>(only PIANO)</p>
                         </div>
@@ -213,7 +208,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'><b>Super-resolutional, Chord masking</b><br>(melody + PIANO)</p>
                         </div>
@@ -224,7 +219,7 @@
                             </audio>
                         </div>
                     </div>
-                    <div class='row' style='width: 600px; height:130px; '>
+                    <div class='row' style='width: 600px; height:130px; ' id='solid'>
                         <div style='height: 60px;'>
                             <p style='height: 60px; width: 270px; padding: 35px 0; text-align: center; font-size: 14px'><b>Super-resolutional, Chord masking</b><br>(only PIANO)</p>
                         </div>
